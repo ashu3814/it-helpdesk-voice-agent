@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Crucial for security)
+.env
+.env.local
+
+# Build files
+dist/
+*.tsbuildinfo
+
+# Logs and system files
+*.log
+.DS_Store

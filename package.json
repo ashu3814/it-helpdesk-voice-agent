@@ -1,0 +1,24 @@
+{
+  "name": "it-helpdesk-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts dev",
+    "start": "tsx src/main.ts start",
+    "download-files": "tsx src/main.ts download-files"
+  },
+  "dependencies": {
+    "@livekit/agents": "^1.0.42",
+    "@livekit/agents-plugin-deepgram": "^1.0.42",
+    "@livekit/agents-plugin-openai": "^1.0.42",
+    "@livekit/agents-plugin-silero": "^1.0.42",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0",
+    "tsx": "^4.19.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
